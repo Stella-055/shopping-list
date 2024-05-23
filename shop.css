@@ -1,0 +1,38 @@
+#inputs{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+} 
+#shopcont{
+    background-color:white;
+    width: 400px;
+    box-shadow: 0 0 3px black;
+  padding: 3%;
+  margin-top: 15%;
+
+}
+button{
+    width: 100%;
+    background-color: orangered;
+    color: white;
+    margin-top: 3px;
+    border: none;
+    height: 20px;
+}
+ul{
+  
+    list-style: square;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.Removeitem{
+    cursor: pointer;
+}
